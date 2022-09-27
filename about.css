@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white
+    ;
+    
+    
+}
+       nav {
+        background-color: #fad2cc;
+        width: 100%;
+        height: 100px; 
+        position: fixed;
+       }
+       nav .Bible12 {
+           float: left;
+           line-height: 20px;
+           font-size: 30px;
+           padding: 40px 80px 40px;
+           font-family:  'Alfa Slab One', cursive;
+           color: black;
+           
+       }
+       .Logo {
+        position: absolute;
+        left: 10px;
+        padding-top: 20px;
+        background-color: none;
+        
+     }
+     
+       
+
+       nav .Begin{
+           float: right
+       }
+     nav .Begin li {
+         float: right;
+         list-style: none;
+         position: relative;
+     }
+     nav .Begin li a {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        padding: 45px 25px 25px;
+        text-decoration: none;
+    }
+    nav .Begin li .manok {
+        display: none;
+        position: absolute;
+       background-color: #fad2cc;
+       
+    }
+    nav .Begin li:hover .manok {
+        display: block;
+    }
+    nav .Begin li .manok li  {
+        width: 120px;
+    }
+    nav .Begin li .manok li a {
+        padding: 15px 14px;
+    }
+    nav .Begin li .manok li a:hover{
+        color: cyan;
+            
+    }
+    ul li a:hover{
+        color: cyan;
+    }
+
+.Main-container{
+    text-align: center;
+    background:  #fff;
+
+}
+
+
+.heading{
+    padding-top: 100px;
+    color: #444;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #884909;
+    width: 280px ;
+    margin: auto;
+    line-height: 80px; 
+}
+
+.Sub-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Members{
+    margin: 10px;
+    padding: 20px;
+    max-width: 30%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Members:hover{
+    background: #ddd;
+}
+ 
+.Members img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e1e0de;
+    border-radius: 50%;
+}
+
+.Name{
+    padding: 20px;
+    color: #8a3e07;
+    font-size:14px;
+    text-transform: uppercase;
+}
+
+.Content h2 {
+    padding: 30px 35px 30px;
+    font-size: 50px;
+    line-height: 30px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.Content .early {
+    padding-top: 20px ;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: black;
+  }
+  
+.Content p {
+    padding: 0px 30px 25px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+}
